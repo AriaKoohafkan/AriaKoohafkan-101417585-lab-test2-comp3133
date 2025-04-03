@@ -1,0 +1,22 @@
+/* src/app/components/characterfilter/characterfilter.component.scss */
+.filtered-characters {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .character-card {
+    height: 100%;
+    
+    img {
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+  
+  mat-form-field {
+    width: 100%;
+    padding: 20px;
+    background: white;
+  }
